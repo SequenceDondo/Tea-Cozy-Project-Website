@@ -1,0 +1,94 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;    
+}
+
+a {
+    color: seashell ;
+}
+span {
+    margin: 10px 10px;  
+}
+
+main {
+  margin: auto; 
+  width: 1200px; 
+}
+
+
+#mission {
+    background-image: url('images/background.jpg');
+    height: 480px;   
+    padding-top: 320px; 
+    margin: auto;
+    
+}
+
+#mission h2, h4 {
+    background-color: black;
+    width: 100%; 
+   margin: auto;
+      
+}
+
+.images {
+     display: inline-flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 10px;
+     
+}
+
+#locations {
+    background-image: url("images/locations.jpg");
+    height: 500px;
+    padding: 40px;
+}
+
+.container {
+    display: inline-flex;
+    opacity: 1; 
+    line-height: 40px;   
+}
+
+.downtown {
+    background-color: black;
+    width: 300px;
+    margin: auto 40px 15px auto;
+}
+
+.bayside {
+    background-color: black;
+    width: 300px;
+    margin: auto 40px 15px auto;
+}
+
+.oakdale {
+    background-color: black;
+    width: 300px;
+    margin: auto 40px 15px auto;
+}
+
+footer {
+    height: 20px;
+}
+ 
+.copyright {
+    text-align: left;
+    padding: 20px;
+}
+
+
+
